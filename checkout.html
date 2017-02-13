@@ -1,0 +1,32 @@
+<html><head><title>Checkout</title>
+<script language="vbscript">
+function calcVB()
+  call getCost()
+  call showCost()
+  end function
+  
+  sub getCost()
+    dim quantity, price, total
+    price= document.form.txtP.value
+    quantity=document.form.txtQ.value
+    total=price * quantity
+    document.form.txtT.value=total
+    end sub
+    
+    sub showCost()
+      dim cost
+      cost = document.form.txtT.value
+      window.alert("Your total is" & _chr(10) & cost)
+      end sub
+</head>
+<body bgcolor = "#99FF66" text="#003300">
+<h2>Checkout</h2>
+
+<form name ="form" action ="javascript:void(0);">
+<input type ="text" value="0" name="txtQ" size="7">Quantity<br><br>
+<input type="text" name="txtP" size = "7">
+Price <br><br>
+<input type="text" name="txtT" size="7">
+Total Cost<br><br>
+<input type="button" value ="Calculate My Total" name="btnSubmit" onClick="calcVB()">
+</form></body></html>
