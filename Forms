@@ -1,0 +1,79 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+<br>
+<table align="center" border="0" bgcolor="#ff4d4d" >
+
+<form>
+<br>
+<tr>
+<td colspan="2" align="center" > <font size="50" style="Calibri" color="white"><img src= "jl.png" height ="100px" width="100px">  Online Order Form  &nbsp&nbsp </font></td></tr>
+
+<tr>
+<td align="left"><br>First Name </td>
+<td><br><input type="text" placeholder="First Name" name="firstname"></td>
+</tr>
+
+<tr>
+<td align="left">Last Name </td>
+<td><input type="text" placeholder="Last Name" cname="lastname"></td>
+</tr>
+
+<tr>
+<td align="left">Address </td>
+<td><input type="text" placeholder="Address" cname="lastname"></td>
+</tr>
+
+<tr>
+<td align="left">Email </td>
+<td > <input type="email" placeholder="Enter your email"> <input type="submit" value="Submit"></td>
+
+</tr>
+
+<tr>
+<td align="left">Promo Code</td>
+<td><input type="password" placeholder="Enter Code" name="password"> <input type="submit" value="Validate"> <br></td>
+</tr>
+
+
+
+
+<tr>
+<br>
+
+<td align="left"><br>Combo:</td>
+<td><br><input type="radio" name="gender" value="male" >Combo Meal 1 
+<input type="radio" name="gender" value="female" >Combo Meal 2 
+
+</tr>
+
+
+<tr>
+<td align="left">Add ons:</td>
+<td>
+<br>
+<pre> <input type="checkbox" name="Basketball" value="Sports">Spaghetti  <input type="checkbox" name="Volleyball" value="Sports">French Fries 
+<pre> <input type="checkbox" name="Football" value="Sports">Coke Float  <input type="checkbox" name="Badminton" value="Sports">Burger
+
+</tr>
+<center>
+<tr>
+
+<td><input type="submit" value="Submit"></td>
+<td><input type="reset" value="Reset"></td>
+
+</tr>
+</center>
+</form>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
